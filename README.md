@@ -24,9 +24,7 @@ Install gfortran which will be used to compile Xfoil
 Installation
 ============
 
-Download the contents of the repository and unpack to a location where you want to run Xfoil from. The following commands will walk you through the compilation process. All lines begining with a $ are commands you enter into the commandline. You don't include the $. If you are new to using a terminal I recommend this primer:
-http://lab46.corning-cc.edu/_media/haas/ufbm.pdf
-All make files have been updated to use relative paths so you shouldn't need to edit any of the files. For example line 101 in orrs/src/osmap.f must point to the location of osmapDP.dat.
+Download the contents of the repository and unpack to a location where you want to run Xfoil from. The following commands will walk you through the compilation process. All make files have been updated to use relative paths so you shouldn't need to edit any of the files. For example line 101 in orrs/src/osmap.f must point to the location of osmapDP.dat.
 
 ```cd Xfoil-for-Mac-main```
 
